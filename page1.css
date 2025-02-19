@@ -26,12 +26,26 @@ li:hover{
     color: white;
 }
 
+input{
+    width:60%;
+    padding:15px;
 
+}
 .searchbar{
     padding:20px;
     text-align: center;
-    /*display:inline-block;*/
-    width: 95%;
-    height: 20px;
+   
+}
+
+.box{
+    border-width: 2px;
+    border-style: solid;
     border-color: black;
+    display:inline-block;
+    width:220px;
+}
+
+img{
+    width:200px;
+    height:200px;
 }

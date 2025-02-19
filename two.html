@@ -1,0 +1,31 @@
+<html>
+ <body>
+
+<input id="value1" type="number" placeholder="Enter numer"></input>
+
+<button onclick="check()">Check</button>
+<p id="result"></p>
+<p id="result1"></p>
+<script>
+
+    const ran_num=(Math.floor(Math.random()*10)+1)
+  
+    function check(){
+    const num1=document.getElementById('value1').value
+    const para=document.getElementById('result')
+    // const para1=document.getElementById('result1')
+    // para1.textContent=ran_num;
+   
+    if(num1==ran_num)
+    {
+        para.textContent="winner";
+
+    }
+    else
+    para.textContent="Not Match"+ num1;
+    }
+    
+ </script>
+</body>
+
+</html>
